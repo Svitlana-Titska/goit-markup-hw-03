@@ -117,14 +117,15 @@ img {
 
 .studio {
   background-color: #2e2f42;
+  padding: 188px 0;
 }
 
 .studio .container {
   display: block;
-  padding: 188px 0;
   margin-left: auto;
   margin-right: auto;
 }
+
 .studio-title {
   max-width: 496px;
   font-weight: 700;
@@ -149,8 +150,6 @@ img {
   margin-right: auto;
   padding-bottom: 188px;
   margin-bottom: 0;
-}
-.studio-btn {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
@@ -240,6 +239,7 @@ img {
 
 .contacts-list {
   display: flex;
+  gap: 24px;
   align-items: center;
   margin-top: 0;
   padding-bottom: 120px;
@@ -275,11 +275,14 @@ img {
 
 /*  main portfolio  */
 
+.portfolio {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 .portfolio-container {
   display: flex;
   align-items: center;
-  padding-top: 120px;
-  padding-bottom: 120px;
 }
 .portfolio-title {
   display: flex;
@@ -296,6 +299,8 @@ img {
 
 .portfolio-item {
   border-bottom: 1px solid #dcdcdc;
+  margin-right: 24px;
+  margin-bottom: 48px;
   width: calc((100% - 48px) / 3);
 }
 
